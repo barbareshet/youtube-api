@@ -1,28 +1,14 @@
 import React, {Component} from 'react';
 
-class VideoList extends Component {
-    // Initialized State
-    constructor(props) {
-        super(props);
+import { Grid } from "@material-ui/core";
 
-        this.state = {
-            //property
-
-        };
-    }
-
-    render() {
-        return (
-            <ul className="">
-                <li>Video Item</li>
-                <li>Video Item</li>
-                <li>Video Item</li>
-                <li>Video Item</li>
-            </ul>
-        );
-    }
+import VideoItem from "./VideoItem";
 
 
+const VideoList = ({ videos })    =>{
+
+    const listOfVideos = videos.map( (video) => <VideoItem key={video.id} video={video}/> );
+    return listOfVideos
 }
 
 export default VideoList;

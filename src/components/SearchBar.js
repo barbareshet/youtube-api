@@ -8,14 +8,14 @@ class SearchBar extends React.Component {
     }
 
     // Initialized State
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            //property
-
-        };
-    }
+    // constructor(props) {
+    //     super(props);
+    //
+    //     this.state = {
+    //         //property
+    //
+    //     };
+    // }
     handleChange = ( event )   =>{
         // console.log(event.target.value);
         this.setState({
