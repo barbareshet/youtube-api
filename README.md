@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+Based on YouTube Video [Build a YouTube Clone Application Using React](https://www.youtube.com/watch?v=VPVzx1ZOVuw)
 ## Available Scripts
 
 In the project directory, you can run:
